@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
         `;
 
-        newListEl.appendChild(newCards);
-        })
+          newListEl.appendChild(newCards);
+        });
       })
       .catch((error) => {
         console.error("Error occured: ", error);
@@ -47,13 +47,13 @@ document.addEventListener("DOMContentLoaded", function () {
           </a>
         `;
 
-        bestListEl.appendChild(bestCards);
-        })
+          bestListEl.appendChild(bestCards);
+        });
       })
       .catch((error) => {
         console.error("Error occured: ", error);
       });
-    }
+  }
   renderIsNewProducts();
   renderIsBestProducts();
 });
